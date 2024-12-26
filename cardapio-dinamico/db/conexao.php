@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db = 'u413819793_CardDinm';
-$user = 'u413819793_rt';
-$pass = '&RfZpu0[E3q';
+$db = 'cardapio_dinamico';
+$user = 'root';
+$pass = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
